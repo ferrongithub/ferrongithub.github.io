@@ -1,0 +1,442 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* ALERT */
+.alert{
+    text-align: center;
+   font-size: 15px;
+    
+}
+
+
+
+
+/* START : NAVBAR -------------------------------------------- */
+.container-fluid{
+    padding: 0 15%;
+}
+
+
+
+.navbar{
+    padding: 20px 0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    margin-right: 0;
+    font-size: 1.7rem;
+    color: #152238 !important;
+}
+
+
+
+.navbar-nav{
+    padding-left: 20px;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6e6e6e;
+
+}
+
+
+.btn-login-nav {
+    padding: 6px 16px;
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    color: #6e6e6e;
+    border: 1px solid #b3b3b3;
+    vertical-align: middle;
+    line-height: 1.5;
+    display: inline-block;
+    background: #fff;
+    cursor: pointer;
+
+    font-weight: 700;
+}
+
+.btn-login-nav:hover {
+    background-color: #152238 !important;
+    font-weight: 700;
+    transition: color .25s ease-in-out,background-color .25s ease-in-out,border-color .25s ease-in-out,box-shadow .25s ease-in-out;
+}
+
+.mr-2, .mx-2 {
+    margin-right: .5rem!important;
+}
+
+.btn-daftar-nav{
+    padding: 6px 16px;
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    /* border: 1px solid green; */
+    vertical-align: middle;
+    line-height: 1.5;
+    display: inline-block;
+    cursor: pointer;
+
+    font-weight: 700;
+
+    background-color: #152238 !important;
+
+}
+/* END : NAVBAR -------------------------------------------- */
+
+
+
+/* START:  SECTION HERO IMAGE -------------------------------------*/
+
+.img-fluid{
+    max-width: 100%;
+    height:auto;
+
+    /* background-image: url(img/Pony\(crop\).jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+    /* border-top: 5px solid #152238; */
+
+    /* border-radius: 50px; */
+
+    /* padding-top: 5px; */
+}
+
+
+
+/* END:  SECTION HERO IMAGE -------------------------------------*/
+
+
+
+
+
+/* SECTION : INTRODUCTION ------------------------------------------------------- */
+.introduction{
+    margin: 100px 0;
+    padding:0 10%
+}
+
+.img-introduction{
+    max-width: 100%;
+    height: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-radius: 30px;
+    margin-bottom: 40px;
+    margin-left:30px ;
+    margin-right:30px ;
+
+}
+
+.heading{
+    line-height: 1;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #152238;
+
+}
+
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.btn-introduction{
+    margin-top: 20px;
+    background-color: #152238 !important;
+    border: 1px solid #152238;
+}
+
+
+
+/* END // SECTION - INTRODUCTION ------------------------------------------------------- */
+
+
+
+/* CARD PROGRAMS  ------------------------------------------------------*/
+.container-cardprograms{
+    margin: 150px 0;
+
+}
+.card{
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+.cardprograms-header{
+    margin-bottom: 60px;
+    font-size: 32px;
+    line-height: 1.31;
+    font-weight: 700;
+    /* color: #505050; */
+    color: #152238;
+   
+}
+
+
+.card-footer{
+    background-color: #152238;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100%;
+}
+
+.card-title{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #505050;
+}
+
+.card-subheading{
+    font-size: 12px;
+    line-height: 1.36;
+    
+    font-weight: 400;
+    color: #b3b3b3;
+}
+
+.card-text{
+    font-weight: 400;
+    color: #505050;
+    font-size: 14px;
+    line-height: 1.57;
+}
+/* END - CARD PROGRAMS  ------------------------------------------------------*/
+
+
+
+/* TESTIMONIALS section -----------------------------------------------------*/
+#testimonials{
+    background-color: #152238;
+    color: white;
+    text-align: center;
+
+    padding: 5% 10% 0;
+}
+
+.testimonials-text{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+
+.figure-img{
+    width: 90px;
+    height: auto; 
+    margin:20px;
+    
+}
+
+
+figcaption{
+    text-align: center;
+}
+figure h5{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    letter-spacing: 1px;
+
+}
+figure p{
+    font-size: 12px;
+    color: #acacac;
+    margin-top:5px !important ;
+}
+
+
+
+/* END - TESTIMONIALS section -----------------------------------------------------*/
+
+
+
+
+
+/* OUTCOMEREPORT ----------------------------------- */
+
+.img-outcomereport{
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 30px;
+}
+
+
+.outcomereport{
+    /* ini buat ngasih jarak ke atas yang sebelah kiri*/
+    margin: 150px 0;
+    text-align: left;
+}
+
+.outcomereport h3{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #152238;
+}
+
+.outcomereport p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin: 20px 0 30px;
+}
+.outcomereport-caption{
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+/* END - OUTCOMEREPORT ----------------------------------- */
+
+
+
+
+/* START: FOOTER ------------------------------------------------------------------------- */
+#footer{
+    background: white;
+    color: black;
+    text-align: left;
+
+}
+.container-footer{
+    padding: 3% 3%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 50px;
+}
+
+
+/* footer-box */
+.footer-box{
+    width: 300px;
+    margin: 40px 15px 0;
+}
+
+.footer-header{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.footer-content{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.65;  
+}
+
+.footer-end{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.footer-maps{
+    text-decoration: none;
+    color: black;
+}
+.footer-contact{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* WHATSAPP PLUGIN -------------------------------------------------------------------------- */
+
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+/* WHATSAPP PLUGIN -------------------------------------------------------------------------- */
+
+
+
+
+/* MOBILE VERSION  -------------------------------------------------------------------*/
+@media (max-width: 575.98px) {
+
+    .introduction{
+        /* margin: 100px 0;
+        padding:0 10%; */
+        text-align: center;
+    }
+    .img-introduction{
+        max-width: 100%;
+        height: auto;
+    
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 80px;
+       
+    }
+
+
+}
